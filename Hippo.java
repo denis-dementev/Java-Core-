@@ -1,10 +1,5 @@
 package animals;
-/**
- * Write a description of class Hippo here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Hippo extends Animal implements Swimable {
     private int swim_limit;
     private final int RUN_LIMIT = 50;
@@ -23,7 +18,7 @@ public class Hippo extends Animal implements Swimable {
 
     @Override
     public String voice() {
-        return "uf-uf-uf";
+        return "bay bay";
     }
 
     @Override
