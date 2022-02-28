@@ -1,10 +1,5 @@
 package animals;
-/**
- * Write a description of class Hen here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Hen extends Animal implements Jumpable {
     private final int RUN_LIMIT = 100;
     private final float JUMP_LIMIT = 10f;
@@ -23,7 +18,7 @@ public class Hen extends Animal implements Jumpable {
 
     @Override
     public String voice() {
-        return "ko-ko-ko";
+        return "hello";
     }
 
     @Override
