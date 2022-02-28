@@ -1,10 +1,5 @@
 package animals;
-/**
- * Write a description of class Cat here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Cat extends Animal implements Jumpable, Swimable {
     private final int RUN_LIMIT = 100;
     private final int SWIM_LIMIT = 100;
@@ -27,7 +22,7 @@ public class Cat extends Animal implements Jumpable, Swimable {
 
     @Override
     public String voice() {
-        return "meow";
+        return "mayoo";
     }
 
     @Override
