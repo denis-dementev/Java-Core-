@@ -4,7 +4,7 @@ import obstances.*;
 public class Main {
 
     public static void main(String[] args) {
-        Animal[] zoo = {new Cat("Murzik"), new Hen("Izzy"), new Hippo("Hippopo")};
+        Animal[] zoo = {new Cat("Zuma"), new Hen("liza"), new Hippo("Lilu")};
         Track track = new Track(80);
         Wall wall = new Wall(3);
         Water water = new Water(10);
